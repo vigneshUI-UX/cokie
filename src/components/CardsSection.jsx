@@ -1,9 +1,9 @@
 import React from 'react';
 
 const products = [
-  { id: 1, name: 'FROSTED SUGAR', image: '/cookie-1.png', isFloating: false },
-  { id: 2, name: 'MONSTER', image: '/cookie-2.png', isFloating: true },
-  { id: 3, name: 'OREO', image: '/cookie-3.png', isFloating: false },
+  { id: 1, name: 'FROSTED SUGAR', image: 'cookie-1.png', isFloating: false },
+  { id: 2, name: 'MONSTER', image: 'cookie-2.png', isFloating: true },
+  { id: 3, name: 'OREO', image: 'cookie-3.png', isFloating: false },
 ];
 
 const CardsSection = ({ containerRef }) => {

@@ -12,7 +12,7 @@ const FloatingCookie = () => {
 
   return (
     <motion.img
-      src="/cookie-2.png"
+      src="cookie-2.png"
       alt="Monster Cookie"
       className="floating-cookie"
       style={{
