@@ -1,0 +1,281 @@
+.app-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 8rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: #4a2c20;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cookie-placeholder {
+  width: 120px;
+  height: 120px;
+}
+
+/* Info Section */
+.info-section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 10%;
+  max-width: 800px;
+}
+
+.info-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #2b1810;
+  margin-bottom: 1rem;
+}
+
+.info-subtitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #5d4037;
+  margin-bottom: 1.5rem;
+}
+
+.info-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #6d4c41;
+}
+
+/* Cards Section */
+.cards-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 4rem 2rem;
+}
+
+.cookie-card {
+  background-color: #3e2723;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 280px;
+  padding: 2.5rem 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-spacer {
+  height: 80px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.buy-btn {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #ffffff;
+  color: #3e2723;
+}
+
+/* Floating Animated Cookie */
+.floating-cookie {
+  position: fixed;
+  z-index: 100;
+  pointer-events: none;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+
+.card-cookie-img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: -50px;
+  object-fit: contain;
+}
+/* Container for perfect centering reference */
+.app-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Floating Cookie Sizing */
+.floating-cookie {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+/* Hero Title Cookie Spot */
+.hero-title {
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 900;
+  color: #4a2c20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.cookie-placeholder {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+}
+
+/* Cards Section Alignment */
+.cards-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+.cookie-card {
+  background-color: #3e2723;
+  color: #ffffff;
+  border-radius: 24px;
+  width: 260px;
+  padding: 2.5rem 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Fixed spacing reserved for card cookies */
+.card-cookie-img,
+.card-spacer {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-cookie-img {
+  object-fit: contain;
+}
+
+.card-spacer {
+  pointer-events: none;
+}
+/* Card Container */
+.cards-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 8rem 2rem 4rem 2rem;
+  position: relative;
+}
+
+/* Base Card Styling */
+.cookie-card {
+  background-color: #3e2723;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 260px;
+  min-height: 220px;
+  padding: 5rem 1.5rem 2rem 1.5rem; /* 5rem top padding leaves space for cookie top */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Static image position for Card 1 & 3 */
+.card-cookie-img {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: contain;
+}
+
+/* Empty placeholder area for Floating Cookie (Card 2) */
+.card-cookie-slot {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  margin-top: auto;
+}
+
+.buy-btn {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 0.6rem 1.8rem;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.buy-btn:hover {
+  background-color: #ffffff;
+  color: #3e2723;
+}
+
+/* Floating Cookie Size Match */
+.floating-cookie {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
